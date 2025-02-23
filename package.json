@@ -1,0 +1,20 @@
+{
+  "name": "node-express",
+  "version": "0.0.1",
+  "description": "Rest API",
+  "main": "index.js",
+  "repository": "https://github.com/AlexRosa16/API-REST-node-express",
+  "author": "Alex Rosa Garcia",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
